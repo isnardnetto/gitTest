@@ -8,13 +8,13 @@ Esse projeto visa automatizar o site "https://github.com/"
 
 * O Java pode ser baixado no link:(https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR) 
 
-O Selenium pode ser baixado no link:https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+* O Selenium pode ser baixado no link:https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 
-O Junit pode ser baixado no link:(https://mvnrepository.com/artifact/junit/junit/4.12)
+* O Junit pode ser baixado no link:(https://mvnrepository.com/artifact/junit/junit/4.12)
 
-O ChromeDrive pode ser baixado no link:(https://chromedriver.chromium.org/downloads)
+* O ChromeDrive pode ser baixado no link:(https://chromedriver.chromium.org/downloads)
 
-A IDE Intellij pode ser baixado no link:(https://www.jetbrains.com/pt-br/idea/download/#section=windows)
+* A IDE Intellij pode ser baixado no link:(https://www.jetbrains.com/pt-br/idea/download/#section=windows)
 
 
 **INSTALAÇÃO:**
