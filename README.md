@@ -1,4 +1,4 @@
-# Automatizando o GitHub
+# Automatizando o GitHub ![imagem github](GitHub-Mark.png)
 
 
 Esse projeto visa automatizar o site "https://github.com/"
