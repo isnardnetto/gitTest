@@ -6,11 +6,16 @@ Esse projeto visa automatizar o site "https://github.com/"
 
 **PRÉ-REQUESITOS:** Stack usada : * Java (JDK 1.8.0_271) * Selenium * ChromeDrive(Versão 86.0.4240.83) * Junit * Intellij IDE
 
-*O Java pode ser baixado no link:(https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
-*O Selenium pode ser baixado no link:https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-*O Junit pode ser baixado no link:(https://mvnrepository.com/artifact/junit/junit/4.12)
-*O ChromeDrive pode ser baixado no link:(https://chromedriver.chromium.org/downloads)
-*A IDE Intellij pode ser baixado no link:(https://www.jetbrains.com/pt-br/idea/download/#section=windows)
+O Java pode ser baixado no link:(https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
+
+O Selenium pode ser baixado no link:https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+
+O Junit pode ser baixado no link:(https://mvnrepository.com/artifact/junit/junit/4.12)
+
+O ChromeDrive pode ser baixado no link:(https://chromedriver.chromium.org/downloads)
+
+A IDE Intellij pode ser baixado no link:(https://www.jetbrains.com/pt-br/idea/download/#section=windows)
+
 
 **INSTALAÇÃO:**
 Crie um novo projeto no Intellij IDE e marque a opção MAVEM.
