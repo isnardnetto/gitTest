@@ -1,4 +1,4 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![download](https://user-images.githubusercontent.com/46537743/104961200-98f35000-59b4-11eb-892f-92a027257283.png)
+![download](https://user-images.githubusercontent.com/46537743/104961200-98f35000-59b4-11eb-892f-92a027257283.png)
 
 # Automatizando o GitHub 
 
