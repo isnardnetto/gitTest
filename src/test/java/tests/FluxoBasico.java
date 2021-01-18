@@ -23,9 +23,12 @@ public class FluxoBasico {
     }
 
     @Test
+    public void testUsuarioCadastrado(){
+        navegador.findElement(By.linkText("Sign in")).click();
+    }
 
     @After
     public void tearDown(){
-         navegador.quit();
+         //navegador.quit();
     }
 }
