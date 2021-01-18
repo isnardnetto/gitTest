@@ -1,5 +1,6 @@
 package suport;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,6 +13,8 @@ public class Web {
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         navegador.get("https://github.com/");
         navegador.manage().window().maximize();
+        //navegador.findElement(By.linkText("Sign in")).click();
+        //navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         return navegador;
     }
