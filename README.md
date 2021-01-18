@@ -1,4 +1,4 @@
-# Automatizando o GitHub ![imagem github](25231.png)
+# Automatizando o GitHub ![imagem github](https://www.flaticon.com/br/icone-gratis/logotipo-do-github_25231)
 
 
 Esse projeto visa automatizar o site "https://github.com/"
