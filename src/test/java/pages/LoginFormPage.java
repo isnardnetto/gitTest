@@ -15,4 +15,16 @@ public class LoginFormPage {
 
         return this;
     }
+
+    public LoginFormPage typeSenha(String senha){
+        navegador.findElement(By.id("password")).sendKeys(senha);
+
+        return this;
+    }
+
+    public HomePage clickSingButton(){
+        navegador.findElement(By.className("btn-primary")).click();
+
+        return new HomePage(navegador);
+    }
 }

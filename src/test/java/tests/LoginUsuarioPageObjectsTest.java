@@ -19,8 +19,20 @@ public class LoginUsuarioPageObjectsTest {
     public void testUsuarioLoginPage(){
         new LoginPage(navegador)
                 .clickSignIn()
-                .typeLogin("engisnard@gmail.com");
+                .typeLogin("engisnard@gmail.com")//mudar
+                .typeSenha("aras2119")//mudar
+                .clickSingButton()
+                ;
 
+    }
+    @Test
+    public void testUsuarioValidandoUserNameIncorretoOuSenha(){
+
+    }
+
+    @Test
+    public void testUsuarioSignOut(){
+        
     }
 
     @After
