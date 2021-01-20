@@ -15,7 +15,7 @@ import suport.Web;
 import java.util.concurrent.TimeUnit;
 
 
-public class FluxoBasico {
+public class FluxoBasicoTest {
     private WebDriver navegador;
     @Before
     public void setUp(){

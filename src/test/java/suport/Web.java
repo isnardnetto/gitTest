@@ -13,7 +13,7 @@ public class Web {
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         navegador.get("https://github.com/");
         navegador.manage().window().maximize();
-        //navegador.findElement(By.linkText("Sign in")).click();
+        navegador.findElement(By.linkText("Sign in")).click();
         //navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         return navegador;
