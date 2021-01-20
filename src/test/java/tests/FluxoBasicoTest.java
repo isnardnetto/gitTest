@@ -44,7 +44,11 @@ public class FluxoBasicoTest {
 
     @Test
     public void testUsuarioValidandoUserNameIncorretoOuSenha(){
-        //navegador.findElement(By.linkText("Sign in")).click();
+        navegador.findElement(By.linkText("Sign in")).click(); // tentei colocar no before e deu ruim !!! so p esse teste
+
+        navegador.findElement(By.id("login_field")).sendKeys("engisnard@gmail.com");
+        navegador.findElement(By.id("password")).sendKeys("a1ras2119");
+
         navegador.findElement(By.className("btn-primary")).click();
         WebElement alert = navegador.findElement(By.id("js-flash-container"));
         String textoNoAlert = alert.getText();
@@ -53,7 +57,7 @@ public class FluxoBasicoTest {
 
     @Test
     public void testUsuarioSignOut(){
-        //navegador.findElement(By.linkText("Sign in")).click();
+        navegador.findElement(By.linkText("Sign in")).click();
 
         navegador.findElement(By.id("login_field")).sendKeys("engisnard@gmail.com");
         navegador.findElement(By.id("password")).sendKeys("aras2119");

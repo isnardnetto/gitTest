@@ -22,6 +22,12 @@ public class LoginFormPage {
         return this;
     }
 
+    public LoginFormPage LoginResumido(String login, String senha){
+        navegador.findElement(By.id("login_field")).sendKeys(login);
+        navegador.findElement(By.id("password")).sendKeys(senha);
+        return this;
+    }
+
     public HomePage clickSingButton(){
         navegador.findElement(By.className("btn-primary")).click();
 

@@ -19,19 +19,27 @@ public class LoginUsuarioPageObjectsTest {
     public void testUsuarioLoginPage(){
         new LoginPage(navegador)
                 .clickSignIn()
-                .typeLogin("engisnard@gmail.com")//mudar
-                .typeSenha("aras2119")//mudar
+                .LoginResumido("engisnard@gmail.com","aras2119")
                 .clickSingButton()
                 ;
 
     }
     @Test
     public void testUsuarioValidandoUserNameIncorretoOuSenha(){
-
+        new LoginPage(navegador)
+            .clickSignIn()
+            .LoginResumido("engggisna@gmail.com","321456dd44d")
+            .clickSingButton()
+            ;
     }
 
     @Test
     public void testUsuarioSignOut(){
+        new LoginPage(navegador)
+            .clickSignIn()
+            .LoginResumido("engisnard@gmail.com","aras2119")
+            .clickSingButton()
+            ;
         
     }
 
