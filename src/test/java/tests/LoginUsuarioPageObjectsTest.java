@@ -29,7 +29,7 @@ public class LoginUsuarioPageObjectsTest {
         new LoginPage(navegador)
             .clickSignIn()
             .LoginResumido("engggisna@gmail.com","321456dd44d")
-            .clickSingButton()
+            .clickSingButton() //luiz
             ;
     }
 
