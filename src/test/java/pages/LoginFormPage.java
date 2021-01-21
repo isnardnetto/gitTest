@@ -3,12 +3,13 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginFormPage {
-    private WebDriver navegador;
+public class LoginFormPage extends BasePage {
 
-    public LoginFormPage(WebDriver navegador){
-        this.navegador = navegador;
+    public LoginFormPage(WebDriver navegador) {
+        super(navegador);
     }
+
+}
 
     public LoginFormPage typeLogin(String login){
         navegador.findElement(By.id("login_field")).sendKeys(login);
