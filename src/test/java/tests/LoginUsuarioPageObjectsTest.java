@@ -39,6 +39,7 @@ public class LoginUsuarioPageObjectsTest {
             .clickSignIn()
             .LoginResumido("engisnard@gmail.com","aras2119")
             .clickSingButton()
+            .logout()
             ;
         
     }
