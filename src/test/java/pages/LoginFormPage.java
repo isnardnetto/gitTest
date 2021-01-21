@@ -9,8 +9,6 @@ public class LoginFormPage extends BasePage {
         super(navegador);
     }
 
-}
-
     public LoginFormPage typeLogin(String login){
         navegador.findElement(By.id("login_field")).sendKeys(login);
 
