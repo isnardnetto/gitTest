@@ -23,28 +23,33 @@ public class LoginUsuarioPageObjectsTest {
         String validacaoHomePage = new LoginPage(navegador)
                 .clickSignIn()
                 .LoginResumido("engisnard@gmail.com","aras2119")
-                .clickSingButton();
+                .clickSingButton()
+                .validationHomePage();
 
         assertEquals("New",validacaoHomePage);
     }
     @Test
     public void testUsuarioValidandoUserNameIncorretoOuSenha(){
-        new LoginPage(navegador)
+        String incorrectText = new LoginPage(navegador)
             .clickSignIn()
             .LoginResumido("engggisna@gmail.com","321456dd44d")
             .clickSingButton()
-            ;
+            .validationIncorrectText();
+        assertEquals("Incorrect username or password.",incorrectText);
     }
 
     @Test
     public void testUsuarioSignOut(){
-        new LoginPage(navegador)
+        //String validationSignOut =
+                new LoginPage(navegador)
             .clickSignIn()
             .LoginResumido("engisnard@gmail.com","aras2119")
             .clickSingButton()
             .logout()
-            ;
-        
+            //.validationSignOut()
+                ;
+
+        //assertEquals("Incorrect username or password.",validationSignOut);
     }
 
     @After

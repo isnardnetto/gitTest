@@ -66,6 +66,12 @@ public class FluxoBasicoTest {
         navegador.findElement(By.xpath("/html/body/div[1]/header/div[7]/details/summary")).click();//melhorar xpath
 
         navegador.findElement(By.className("dropdown-signout")).click();
+
+        navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        WebElement alert = navegador.findElement(By.className("btn-mktg-fluid"));
+        String textoNoAlert = alert.getText();
+        assertEquals("Sign up for GitHub",textoNoAlert);
     }
 
     @After
