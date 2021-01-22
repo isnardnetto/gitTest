@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class BasePage {
@@ -8,4 +9,9 @@ public class BasePage {
     public BasePage(WebDriver navegador) {
         this.navegador = navegador;
     }
+
+    public String validacaoHomePage() {
+        return navegador.findElement(By.className("btn")).getText();
+    }
 }
+

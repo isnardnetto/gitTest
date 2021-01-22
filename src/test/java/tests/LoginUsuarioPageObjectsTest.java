@@ -4,8 +4,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+import pages.HomePage;
 import pages.LoginPage;
 import suport.Web;
+
+import static org.junit.Assert.*;
 
 public class LoginUsuarioPageObjectsTest {
     private WebDriver navegador;
@@ -16,13 +19,13 @@ public class LoginUsuarioPageObjectsTest {
     }
 
     @Test
-    public void testUsuarioLoginPage(){
-        new LoginPage(navegador)
+    public void testUsuarioLoginPage() {
+        String validacaoHomePage = new LoginPage(navegador)
                 .clickSignIn()
                 .LoginResumido("engisnard@gmail.com","aras2119")
-                .clickSingButton()
-                ;
+                .clickSingButton();
 
+        assertEquals("New",validacaoHomePage);
     }
     @Test
     public void testUsuarioValidandoUserNameIncorretoOuSenha(){
