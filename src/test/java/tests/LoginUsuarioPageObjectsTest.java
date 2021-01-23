@@ -22,7 +22,7 @@ public class LoginUsuarioPageObjectsTest {
     public void testUsuarioLoginPage() {
         String validacaoHomePage = new LoginPage(navegador)
                 .clickSignIn()
-                .LoginResumido("engisnard@gmail.com","aras2119")
+                .LoginResumido("oladipohouston599@gmail.com","oladipoHouston1991")
                 .clickSingButton()
                 .validationHomePage();
 
@@ -32,7 +32,7 @@ public class LoginUsuarioPageObjectsTest {
     public void testUsuarioValidandoUserNameIncorretoOuSenha(){
         String incorrectText = new LoginPage(navegador)
             .clickSignIn()
-            .LoginResumido("engggisna@gmail.com","321456dd44d")
+            .LoginResumido("engisna@gmail.com","321456dd44d")
             .clickSingButton()
             .validationIncorrectText();
         assertEquals("Incorrect username or password.",incorrectText);
@@ -40,16 +40,12 @@ public class LoginUsuarioPageObjectsTest {
 
     @Test
     public void testUsuarioSignOut(){
-        //String validationSignOut =
-                new LoginPage(navegador)
+        new LoginPage(navegador)
             .clickSignIn()
-            .LoginResumido("engisnard@gmail.com","aras2119")
+            .LoginResumido("oladipohouston599@gmail.com","oladipoHouston1991")
             .clickSingButton()
-            .logout()
-            //.validationSignOut()
-                ;
+            .logout();
 
-        //assertEquals("Incorrect username or password.",validationSignOut);
     }
 
     @After

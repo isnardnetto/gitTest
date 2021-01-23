@@ -22,8 +22,5 @@ public class BasePage {
 
     }
 
-    public String validationSignOut(){
-        return navegador.findElement(By.className("btn-mktg-fluid")).getText();
-    }
 }
 
