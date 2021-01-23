@@ -50,7 +50,7 @@ public class LoginUsuarioPageObjectsTest {
 
     @After
     public void tearDown(){
-        //navegador.quit();
+        navegador.quit();
         }
     }
 

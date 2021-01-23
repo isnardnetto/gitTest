@@ -75,6 +75,6 @@ public class FluxoBasicoTest {
 
     @After
     public void tearDown(){
-         //navegador.quit();
+         navegador.quit();
     }
 }
