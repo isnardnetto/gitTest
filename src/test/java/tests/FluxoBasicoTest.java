@@ -24,8 +24,7 @@ public class FluxoBasicoTest {
 
     @Test
     public void testUsuarioFirstPage(){
-        navegador.findElement(By.linkText("Sign in")).click();//colocar esse comando no before ? pq posso fazer
-        // conta nova ai como se comportar ? pensar...
+        navegador.findElement(By.linkText("Sign in")).click();
     }
 
     @Test

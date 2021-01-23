@@ -16,4 +16,3 @@ public class HomePage extends BasePage {
         return new LoginPage(navegador);
     }
 }
-///html/body/div[1]/header/div[7]/details/details-menu/form/button
