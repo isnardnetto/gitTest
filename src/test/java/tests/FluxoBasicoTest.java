@@ -32,7 +32,7 @@ public class FluxoBasicoTest {
         navegador.findElement(By.linkText("Sign in")).click(); // tentei colocar no before e deu ruim !!! so p esse teste
 
         navegador.findElement(By.id("login_field")).sendKeys("engisnard@gmail.com");
-        navegador.findElement(By.id("password")).sendKeys("aras2119");
+        navegador.findElement(By.id("password")).sendKeys("**********");
 
         navegador.findElement(By.className("btn-primary")).click();
 
@@ -46,7 +46,7 @@ public class FluxoBasicoTest {
         navegador.findElement(By.linkText("Sign in")).click(); // tentei colocar no before e deu ruim !!! so p esse teste
 
         navegador.findElement(By.id("login_field")).sendKeys("engisnard@gmail.com");
-        navegador.findElement(By.id("password")).sendKeys("a1ras2119");
+        navegador.findElement(By.id("password")).sendKeys("*********");
 
         navegador.findElement(By.className("btn-primary")).click();
         WebElement alert = navegador.findElement(By.id("js-flash-container"));
@@ -59,7 +59,7 @@ public class FluxoBasicoTest {
         navegador.findElement(By.linkText("Sign in")).click();
 
         navegador.findElement(By.id("login_field")).sendKeys("engisnard@gmail.com");
-        navegador.findElement(By.id("password")).sendKeys("aras2119");
+        navegador.findElement(By.id("password")).sendKeys("*********");
 
         navegador.findElement(By.className("btn-primary")).click();
         navegador.findElement(By.xpath("/html/body/div[1]/header/div[7]/details/summary")).click();//melhorar xpath
